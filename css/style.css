@@ -1,0 +1,13 @@
+.TextArea{
+	height:150px !important;
+}
+.TextArea2{
+	height:250px !important;
+}
+.btn-group {
+	width: 100%;
+}
+.screensizes .form-check.form-check-inline{
+	min-height: 30px;
+	min-width: 80px;
+}
