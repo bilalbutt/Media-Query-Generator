@@ -74,6 +74,16 @@ function ClearQuerry(){
 	$("#mq").val('');
 }
 
+
+function ClearAll(){
+	$("#mq").val('');
+	document.querySelectorAll('input[type="checkbox"]').forEach(function (checkbox) {
+		checkbox.checked = false;
+	});
+	document.getElementById('resolution-size-0').checked = true;
+
+}
+
 function formatCss(css) {
 	let formatted = '';
 	let indentLevel = 0;

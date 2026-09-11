@@ -96,7 +96,7 @@ $SampleCss .= "}";
 
             <div class="col-12">
                 <div  class="btn-group" role="toolbar">
-                    <button type="reset" id="resetbtt" class="btn btn-danger btn-lg1 w-auto">Clear All</button>
+                    <button type="button" id="resetbtt" class="btn btn-danger btn-lg1 w-auto" onClick="ClearAll()" >Clear All</button>
                     <button type="button" id="clear" class="btn btn-warning btn-lg1 w-auto" onClick="ClearQuerry()">Clear Media Querries</button>
                     <button type="button" class="btn btn-success btn-lg1 w-auto" onClick="GenerateQuerry()">Generate</button>
                 </div>
